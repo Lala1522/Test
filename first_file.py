@@ -13,7 +13,7 @@ else:
         a = b ; b = h
     
     print("Das Ergebnis ist" , a,".")
-    
+    print("Test: Ich verändere gerade in develop Branch")
 '''        
 Testfälle
 1. a = -3 und b = 4 -> Stopp, eine negative Zahl. -> Programm beweist das es keine natürliche Zahl ist und wird beendet.
@@ -22,5 +22,6 @@ Testfälle
 4. a = -33 und b = -11 -> Stopp, eine negative Zahl. -> Programm beweist das es keine natürliche Zahl ist und wird beendet.
 5. a = 9/7 -> ValueError: invalid literal for int() with base 10: '9/7' -> Programm bricht ab, weil eine ungültige Zahl gegeben wurde. 
 '''
+
 
 
